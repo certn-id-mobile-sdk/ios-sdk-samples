@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "main.screen.document.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Document Auto Capture"
+          }
+        }
+      }
+    },
+    "main.screen.face.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face Capture"
+          }
+        }
+      }
+    },
+    "main.screen.nfc.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NFC Reading"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
