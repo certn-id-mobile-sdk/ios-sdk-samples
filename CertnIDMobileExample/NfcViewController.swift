@@ -69,6 +69,6 @@ extension NfcViewController: CertnIDNfcTravelDocumentReaderDelegate {
     func nfcTravelDocumentReaderCanceled(
         _ nfcTravelDocumentReader: CertnIDMobileSDK.CertnIDNfcTravelDocumentReader
     ) {
-        print("NOK")
+        print("User cancelled NFC reading")
     }
 }

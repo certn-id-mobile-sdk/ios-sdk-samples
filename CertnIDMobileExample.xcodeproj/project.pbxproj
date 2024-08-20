@@ -30,6 +30,7 @@
 		DA63E7D72C6B809200AA8CCD /* FaceCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCaptureViewController.swift; sourceTree = "<group>"; };
 		DA63E7D92C6B869D00AA8CCD /* NfcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NfcViewController.swift; sourceTree = "<group>"; };
 		DA63E7DB2C6B891600AA8CCD /* authority_certificates.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = authority_certificates.pem; sourceTree = "<group>"; };
+		DA63E85D2C74AD1D00AA8CCD /* CertnIDMobileExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CertnIDMobileExample.entitlements; sourceTree = "<group>"; };
 		DA79D1202C33EA93004D790B /* CertnIDMobileExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CertnIDMobileExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA79D1232C33EA93004D790B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA79D1252C33EA93004D790B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 		DA79D1222C33EA93004D790B /* CertnIDMobileExample */ = {
 			isa = PBXGroup;
 			children = (
+				DA63E85D2C74AD1D00AA8CCD /* CertnIDMobileExample.entitlements */,
 				DA79D1232C33EA93004D790B /* AppDelegate.swift */,
 				DA79D1252C33EA93004D790B /* SceneDelegate.swift */,
 				DA79D1272C33EA93004D790B /* ViewController.swift */,
@@ -371,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CertnIDMobileExample/CertnIDMobileExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 774RQH45TM;
@@ -399,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CertnIDMobileExample/CertnIDMobileExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 774RQH45TM;
